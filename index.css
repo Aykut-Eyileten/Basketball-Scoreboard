@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+}
+
+.board {
+  margin: 12px auto;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  background: #1c3e5e;
+  border-radius: 8px;
+}
+
+.boardSection {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  align-items: center;
+}
+
+.sectionName {
+  margin-bottom: 4px;
+  color: white;
+  letter-spacing: 4px;
+}
+
+.score {
+  margin: 0;
+  width: 140px;
+  background: #121212;
+  color: #e94848;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 4px;
+  border-radius: 6px;
+}
+
+.buttonsGroup {
+  width: 140px;
+  margin: 14px 0 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 40px;
+  height: 32px;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: transparent;
+  color: white;
+}
